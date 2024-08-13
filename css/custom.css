@@ -1,0 +1,31 @@
+.bg-color-secondary {
+  background-color: #5c90fe !important;
+}
+
+.bg-color-tertiary,
+.bg-tertiary {
+  background-color: blueviolet !important;
+}
+.custom-ws-initial {
+  border-right: 1px solid #fff;
+}
+.laptop-img img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.homelander-bg {
+  background-image: url("../img/homelander-brighting.jpg");
+  background-repeat: repeat;
+}
+
+.homelander-bg::before {
+  content: "";
+  border-image: fill linear-gradient(#0003, #000);
+  width: 100%;
+  height: 100%;
+}
+
+.custom-bg {
+  background-color: #0f1324 !important;
+}
